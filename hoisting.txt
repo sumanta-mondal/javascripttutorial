@@ -1,0 +1,5 @@
+//assigning the anonymous function to a variable called anonymousGreet. 
+//This is known as a function expression in JavaScript.
+//Now, the variable anonymousGreet holds the function 
+//and can be used to call the function later in 
+//the program.
