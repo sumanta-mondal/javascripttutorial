@@ -1,0 +1,8 @@
+greet();
+//The function is placed into memory, but it's just a statement.
+//It doesn't return a value until the function is executed.
+// In javascript we can say that It's still an object.
+//It's name is greet and its code property contains the code you wrote inside of it.
+function greet() {
+    console.log('hi');   
+}
