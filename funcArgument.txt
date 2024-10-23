@@ -1,0 +1,10 @@
+// Function 'log' takes another function 'a' as an argument and calls it.
+// In this case, 'log' is invoked with an anonymous function that logs 'hi' to the console.
+function log(a) {
+   a();  // Calls the function passed as an argument
+}
+
+// Calling 'log' and passing an anonymous function that prints 'hi' to the console.
+log(function() {
+    console.log('hi');  // Output: 'hi'
+});
