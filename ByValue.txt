@@ -1,0 +1,13 @@
+// by value (primitives)
+var a = 3;  // 'a' is assigned the value 3
+var b;      // 'b' is declared but not assigned a value, so it's undefined
+
+b = a;      // 'b' is assigned the value of 'a' (which is 3), now b = 3
+a = 2;      // 'a' is reassigned the value 2
+
+console.log(a);  // Prints the current value of 'a' (which is now 2)
+console.log(b);  // Prints the value of 'b' (which is still 3)
+//---------------------------------------------
+//Output :
+//2
+//3
